@@ -1,6 +1,7 @@
 import React from "react";
 
 const Dashboard = props => {
+  
   const resetCount = () => {
     props.updateStat({
       balls: 0,
